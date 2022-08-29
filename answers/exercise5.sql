@@ -1,0 +1,1 @@
+SELECT city, state, county, timezone FROM zipcodes WHERE timezone REGEXP '[\|]';
